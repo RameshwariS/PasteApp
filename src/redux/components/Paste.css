@@ -1,0 +1,78 @@
+.paste-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 8rem;
+}
+.icon{
+    height: 40px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(172, 172, 172);
+    border-radius:7px ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 1px;
+    margin: 3px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.icon-img{
+ /* Initial color */
+ stroke: black;
+  stroke-width: 2; /* Initial stroke width */
+  fill: none;
+  transition: stroke-width 1s ease;
+}
+svg:hover,.icon:hover .icon-img  {
+  stroke: #8562df; /* Change color on hover */
+  cursor: pointer;
+}
+.Paste-main{
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 7px;
+    margin: 2rem;
+    width: 80vw;
+    height: 5rem;
+    display: flex;
+   gap: 7rem;
+}
+.left-main{
+    margin: 20px;
+    
+}
+.left-main .title{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.right-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 20px;
+    padding-top: 30px;
+    gap: 0.2rem;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inpt{
+    height: 2.5rem;
+    width: 10rem;
+    padding: 5px;
+}
+input ::placeholder{
+    font-size: x-large;
+
+}
+input{
+    font-size: large;
+}
