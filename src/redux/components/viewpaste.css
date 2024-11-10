@@ -1,0 +1,41 @@
+.Home1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+    width: 100vw;
+    gap: 1rem;
+}
+.inp-title1{
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+    align-items: center;
+}
+.inp-title1 button{
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    height: 2rem;
+    border: 0px ;
+    border-radius: 7px;
+    font-size: 0.9rem;
+    width: 5.5rem;
+}
+.inp-title1 input{
+    text-decoration: none;
+    height: 2rem;
+    width: 10rem;
+    border: 1px solid rgb(78, 75, 75);
+    border-radius: 7px;
+    font-size: 18px;
+}
+.inp-title ::placeholder, .inp-content ::placeholder{
+    font-size: 15px;
+    padding: 4px;
+}
+.inp-content textarea{
+   width: 35rem;
+    font-size: 20px;
+
+}
